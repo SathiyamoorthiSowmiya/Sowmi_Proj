@@ -127,8 +127,14 @@ This HR Management system is designed to manage various HR functions efficiently
 ## Demo Credentials
 
 Use the following demo credentials to explore the application:  
+  Admin side
+- **Email**:  user87@gmail.com, test03@gmail.com
+- **Password**:098765, test03
 
-- **Email**: `demo.employee@example.com`  
-- **Password**: `Demo@123`
+  Employee side
+  - **Email**: user78@gmail.com, test30@gmail.com
+- **Password**: test03, test30
+  
+
 
 
