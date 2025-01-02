@@ -29,61 +29,27 @@ This HR Management system is designed to manage various HR functions efficiently
 1. Navigate to the server directory:  
    ```bash
    cd server
-Set up the database:
+2.Install dependencies:
+npm install
+3.Set up the database:
 Configure your database settings in config/database.js.
+
 Run migrations and seeders if necessary:
-bash
-Copy code
 npx sequelize-cli db:migrate  
 npx sequelize-cli db:seed:all
-Start the server:
-bash
-Copy code
+
+4.Start the server:
 npm start
+
 Frontend (React)
-Navigate to the client directory:
-bash
-Copy code
+1.Navigate to the client directory
 cd client
-Install dependencies:
-bash
-Copy code
+2.Install dependencies
 npm install
-Configure environment variables:
+3.Configure environment variables:
 Create a .env file in the root directory of your client project and add necessary environment variables (e.g., API endpoint for the backend).
-Start the development server:
-bash
-Copy code
+4.Start the development server
 npm run dev
-Getting Started
-Register an Admin Account:
-Register an admin account to access the administrative features of the application.
 
-Register an Employee Account:
-Register an employee account to access the employee portal and utilize features designed for managing tasks, viewing schedules, and accessing work-related resources.
 
-Usage
-Admin Interface
-Login: Admins log in using their credentials.
-Dashboard: Access the admin dashboard to manage the system.
-Events Management:
-Create Event: Fill in the event details and save.
-Delete Event: Select an event to delete from the list.
-Leave Management:
-Review leave requests and either accept or reject them.
-Employee Management:
-Add Employee: Fill in the employee details and save.
-Delete Employee: Select an employee to delete from the list.
-Payroll Management: (Upcoming Feature) Will allow admins to add and manage payroll information.
-Employee Interface
-Login: Employees log in using their credentials.
-Dashboard: Access the employee dashboard to manage personal information and requests.
-History Management:
-Add History: Fill in the history details and save.
-Leave Requests:
-Add Leave Request: Fill in the leave request details and submit.
-Update Personal Details: Update any personal details and save changes.
-Events: View the list of events created by the admin.
-Demo Credentials
-Use the following demo credentials to explore the application:
 
