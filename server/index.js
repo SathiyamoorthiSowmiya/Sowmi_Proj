@@ -46,7 +46,7 @@ app.get('/verify',verifyuser,(req,res)=>{
     return res.json({Status:true, role:req.role, id:req.id})
 })
 
-app.get('/ ',(req, res) => {
+app.get('/',(req, res) => {
     res.send('The backend is running Successfully');
     });
 
