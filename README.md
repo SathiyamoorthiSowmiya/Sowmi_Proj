@@ -133,7 +133,7 @@ Use the following demo credentials to explore the application:
 
   Employee side
   - **Email**: user78@gmail.com, test30@gmail.com
-- **Password**: test03, test30
+- **Password**: 123456, test30
   
 
 
