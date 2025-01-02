@@ -26,30 +26,22 @@ This HR Management system is designed to manage various HR functions efficiently
 ## Installation
 
 ### Backend (Node.js)  
-1. Navigate to the server directory:  
+ Navigate to the server directory:  
    ```bash
    cd server
-2.Install dependencies:
-npm install
-3.Set up the database:
-Configure your database settings in config/database.js.
-
-Run migrations and seeders if necessary:
-npx sequelize-cli db:migrate  
-npx sequelize-cli db:seed:all
-
-4.Start the server:
-npm start
-
-Frontend (React)
-1.Navigate to the client directory
+### Frontend (React)
 cd client
-2.Install dependencies
 npm install
-3.Configure environment variables:
-Create a .env file in the root directory of your client project and add necessary environment variables (e.g., API endpoint for the backend).
-4.Start the development server
-npm run dev
+
+Getting Started
+Register an Admin Account:
+Register an admin account to access the administrative features of the application.
+
+Register an Employee Account:
+Register an employee account to access the employee portal and utilize features designed for managing tasks, viewing schedules, and accessing work-related resources.
+
+
+
 
 
 
