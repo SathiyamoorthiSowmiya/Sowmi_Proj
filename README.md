@@ -55,3 +55,42 @@ Getting Started
 To get started with the application, follow the steps below:
 
 1. Register an Admin Account
+ you can register an admin account to access the administrative features of the application.
+
+2. Access the Admin Dashboard
+After registering the admin account, you can log in using the credentials you provided during registration. Once logged in, you will have access to the admin dashboard, where you can manage employees, training modules, and other administrative tasks.
+
+3. Create Employee Accounts
+From the admin dashboard, you can create employee accounts by providing the necessary details such as name, email, department, etc. These accounts will be used by employees to access their profiles and training modules.
+
+4. Employee Login
+Employees can log in to the system using the credentials provided by the admin. They can access their profiles, view assigned training modules, mark modules as completed, and perform other tasks related to their training.
+
+Additional Information
+For any further assistance or troubleshooting, please refer to the documentation or contact the system administrator.
+
+Usage
+Admin Interface
+Login: Admins log in using their credentials.
+Dashboard: Access the admin dashboard to manage the system.
+Events Management:
+Create Event: Fill in the event details and save.
+Delete Event: Select an event to delete from the list.
+Leave Management:
+Review leave requests and either accept or reject them.
+Employee Management:
+Add Employee: Fill in the employee details and save.
+Delete Employee: Select an employee to delete from the list.
+Payroll Management: (Upcoming feature)
+Will allow admins to add and manage payroll information (Still in progress).
+Employee Interface
+Login: Employees log in using their credentials.
+Dashboard: Access the employee dashboard to manage personal information and requests.
+History Management:
+Add History: Fill in the history details and save.
+Leave Requests:
+Add Leave Request: Fill in the leave request details and submit.
+Update Personal Details:
+Update any personal details and save changes.
+Events:
+View the list of events created by the admin.
