@@ -5,6 +5,9 @@ This HR Management system is designed to manage various HR functions efficiently
 - **Admin Role**: Responsible for managing events, leave requests, employees, and payroll (under development).  
 - **Employee Role**: Enables employees to manage their history, request leaves, update details, and check events.
 
+Live Demo: 
+Front end deployed with Netlify : https://hrmsphere.netlify.app/ 
+Backend Deployed with Render.com : https://sowmi-proj.onrender.com/ 
 ---
 
 ## Features
