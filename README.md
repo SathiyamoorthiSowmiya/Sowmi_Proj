@@ -21,29 +21,7 @@ This HR Management system is designed to manage various HR functions efficiently
 - **Update Details**: Employees can update their personal details.  
 - **Check Events**: Employees can view events created by the admin.  
 
----
-Usage
-Admin Interface
-Login: Admins log in using their credentials.
-Dashboard: Access the admin dashboard to manage the system.
-Events Management:
-Create Event: Fill in the event details and save.
-Delete Event: Select an event to delete from the list.
-Leave Management:
-Review leave requests and either accept or reject them.
-Employee Management:
-Add Employee: Fill in the employee details and save.
-Delete Employee: Select an employee to delete from the list.
-Payroll Management: (Upcoming Feature) Will allow admins to add and manage payroll information.
-Employee Interface
-Login: Employees log in using their credentials.
-Dashboard: Access the employee dashboard to manage personal information and requests.
-History Management:
-Add History: Fill in the history details and save.
-Leave Requests:
-Add Leave Request: Fill in the leave request details and submit.
-Update Personal Details: Update any personal details and save changes.
-Events: View the list of events created by the admin.
+
 
 
 
