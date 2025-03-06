@@ -1,4 +1,4 @@
-# 🌐 HR Management System Overview
+# 🌐 HR Management System 
 
 This HR Management system is designed to manage various HR functions efficiently. The system has two main roles: **Admin** and **Employee**.  
 
@@ -9,7 +9,7 @@ This HR Management system is designed to manage various HR functions efficiently
 
 - **Frontend deployed with Netlify**: [https://hrmsphere.netlify.app/](https://hrmsphere.netlify.app/)  
 - **Backend deployed with Render.com**: [https://sowmi-proj.onrender.com/](https://sowmi-proj.onrender.com/)
----
+
 
 ## ✨ Features
 
@@ -19,14 +19,13 @@ This HR Management system is designed to manage various HR functions efficiently
 - 👥 **Add and Delete Employee**: Admins can add new employees to the system and delete existing ones.  
 - 💰 **Add Payroll**: Manage payroll for employees.  
 
-### 👩‍💼 Employee Side  
--📜 **Add History**: Employees can add personal history records.  
-- 📝**Add Leave Request**: Employees can submit leave requests for admin review.  
--✏️ **Update Details**: Employees can update their personal details.  
--📆 **Check Events**: Employees can view events created by the admin.
----
-
-##📥 Installation
+### 👩‍💼 Employee Side
+- 📜 **Add History**: Employees can add personal history records.
+- 📝**Add Leave Request**: Employees can submit leave requests for admin review.
+-  ✏️ **Update Details**: Employees can update their personal details.
+-  📆 **Check Events**: Employees can view events created by the admin.
+ 
+## 📥 Installation
 
 ### 📦 Backend (Node.js)  
 1. Navigate to the server directory:  
@@ -65,8 +64,6 @@ This HR Management system is designed to manage various HR functions efficiently
    npm run dev
    ```  
 
----
-
 ## 🚀 Getting Started
 
 1. 📧 **Register an Admin Account**:  
@@ -75,7 +72,6 @@ This HR Management system is designed to manage various HR functions efficiently
 2. **👥Register an Employee Account**:  
    Register an employee account to access the employee portal and utilize features designed for managing tasks, viewing schedules, and accessing work-related resources.  
 
----
 
 ## ⚡ Usage
 
@@ -83,28 +79,28 @@ This HR Management system is designed to manage various HR functions efficiently
 - 🔐 **Login**: Admins log in using their credentials.  
 - 📊 **Dashboard**: Access the admin dashboard to manage the system.  
 - ** 📅 Events Management**:  
-  -➕ Create Event: Fill in the event details and save.  
-  - ❌ Delete Event: Select an event to delete from the list.  
+  - Create Event: Fill in the event details and save.  
+  -  Delete Event: Select an event to delete from the list.  
 - **📝Leave Management**:  
   - Review leave requests and either ✅ accept or ❌ reject them.  
 - **👥Employee Management**:  
-  -➕ Add Employee: Fill in the employee details and save.  
-  - ❌ Delete Employee: Select an employee to delete from the list.  
-- **💰Payroll Management**: *(Upcoming Feature)* Will allow admins to add and manage payroll information.  
+  - Add Employee: Fill in the employee details and save.
+  - Delete Employee: Select an employee to delete from the list.
+    
+- **💰Payroll Management**:
+-  Will allow admins to add and manage payroll information.  
 
-###👩‍💻 Employee Interface  
+### 👩‍💻 Employee Interface  
 - **🔐Login**: Employees log in using their credentials.  
-- **📊Dashboard**: Access the employee dashboard to manage personal information and requests.  
-- **History Management**:  
-  - Add History: Fill in the history details and save.  
-- **📝Leave Requests**:  
-  - Add Leave Request: Fill in the leave request details and submit.  
+- **📊Dashboard**: Access the employee dashboard to manage personal information and requests.
+  
+- **History Management**: Add History: Fill in the history details and save.  
+- **📝Leave Requests**: Add Leave Request: Fill in the leave request details and submit.  
 - **✏️Update Personal Details**: Update any personal details and save changes.  
 - **📆Events**: View the list of events created by the admin.  
 
----
 
-##📧 Demo Credentials
+## 📧 Demo Credentials
 
 Use the following demo credentials to explore the application:  
   👩‍💼 Admin side
