@@ -14,12 +14,14 @@ This HR Management system is designed to manage various HR functions efficiently
 ## ✨ Features
 
 ### 👩‍💼 Admin Side  
+
 - 📅 **Create and Delete Event**: Admins can create new events and delete existing ones.  
 - ✅❌**Accept or Reject Leave**: Admins can accept or reject leave requests made by employees.  
 - 👥 **Add and Delete Employee**: Admins can add new employees to the system and delete existing ones.  
 - 💰 **Add Payroll**: Manage payroll for employees.  
 
 ### 👩‍💼 Employee Side
+
 - 📜 **Add History**: Employees can add personal history records.
 - 📝**Add Leave Request**: Employees can submit leave requests for admin review.
 -  ✏️ **Update Details**: Employees can update their personal details.
@@ -66,10 +68,12 @@ This HR Management system is designed to manage various HR functions efficiently
 
 ## 🚀 Getting Started
 
-1. 📧 **Register an Admin Account**:  
+1. 📧 **Register an Admin Account**:
+   
     Register an admin account to access the administrative features of the application.  
 
-2. **👥Register an Employee Account**:  
+2. **👥Register an Employee Account**:
+   
    Register an employee account to access the employee portal and utilize features designed for managing tasks, viewing schedules, and accessing work-related resources.  
 
 
@@ -88,7 +92,7 @@ This HR Management system is designed to manage various HR functions efficiently
   - Delete Employee: Select an employee to delete from the list.
     
 - **💰Payroll Management**:
--  Will allow admins to add and manage payroll information.  
+     - Will allow admins to add and manage payroll information.  
 
 ### 👩‍💻 Employee Interface  
 - **🔐Login**: Employees log in using their credentials.  
@@ -102,7 +106,8 @@ This HR Management system is designed to manage various HR functions efficiently
 
 ## 📧 Demo Credentials
 
-Use the following demo credentials to explore the application:  
+Use the following demo credentials to explore the application: 
+
   👩‍💼 Admin side
 - **📩Email**:  user87@gmail.com, test03@gmail.com
 - **🔑Password**:098765, test03
