@@ -7,8 +7,8 @@ This HR Management system is designed to manage various HR functions efficiently
 
 ## 🚀 Live Demo
 
-- **Frontend deployed with Netlify**: [https://hrmsphere.netlify.app/](https://hrmsphere.netlify.app/)  
-- **Backend deployed with Render.com**: [https://sowmi-proj.onrender.com/](https://sowmi-proj.onrender.com/)
+- **Frontend deployed with Netlify**: ()  
+- **Backend deployed with Render.com**: ()
 
 
 ## ✨ Features
@@ -115,6 +115,211 @@ Use the following demo credentials to explore the application:
  👩‍💻 Employee side
   - **📩Email**: user78@gmail.com, test30@gmail.com
 - **🔑Password**: 123456, test30
+
+- 2️⃣ Backend Setup (Node + Express)
+
+   Go to backend folder:
+
+   cd backend
+
+  Install dependencies:
+
+  npm install
+
+  Start the backend server:
+
+  # For development (with nodemon)
+  npm run dev
+
+  # or normal run
+  npm start
+
+  3️⃣ Frontend Setup (React + Vite)
+
+  Go to frontend folder:
+
+  cd frontend
+  
+ Install dependencies:
+
+ npm install
+
+ Start the frontend dev server:
+
+ npm run dev
+
+ 🚀 Getting Started (Flow)
+1️⃣ Register User
+
+Open frontend in browser: http://localhost:5173
+
+Go to Register page.
+
+Create a User account by choosing role = user.
+
+Login using that account.
+
+You will be redirected to User Dashboard.
+
+2️⃣ Place Order as User
+
+From dashboard click “Place Order”.
+
+Choose dishes (use + / - to set quantity).
+
+Enter Delivery Address.
+
+Check order summary (Subtotal + GST + Delivery).
+
+Click Place Order.
+
+You will see a success toast → “Admin will review”.
+
+You can view your own orders under “My Orders” page.
+
+3️⃣ Create Admin User
+
+You can create an admin in two ways:
+
+Option A – From frontend Register
+
+Open Register page.
+
+Choose role = admin.
+
+Login with that account at /admin/login (if you created separate route)
+or normal login and get redirected to admin dashboard according to role.
+
+Option B – Using Postman / MongoDB directly
+
+Insert a user document with role: "admin" in users collection.
+
+4️⃣ Use Admin Panel
+
+Login as Admin.
+
+You’ll see Admin Dashboard:
+
+Total orders
+
+Pending
+
+Delivered
+
+Dark mode toggle
+
+Click “View All Orders” → /admin/orders
+
+In Admin Orders page:
+
+View all user orders list.
+
+Search by user name / email.
+
+Filter by status (pending / accepted / on-the-way / delivered / rejected).
+
+Click an order card → popup modal shows:
+
+User
+
+Address
+
+Items + quantity + price
+
+Total amount
+
+Status update buttons:
+
+From pending:
+
+✅ Approve → changes to accepted
+
+❌ Reject → changes to rejected
+
+From accepted:
+
+🚚 Mark On-the-way
+
+From on-the-way:
+
+📦 Mark Delivered
+
+⚡ Usage Summary
+🧑‍🍳 User Interface
+
+🔐 Login / Register
+
+📊 Dashboard with greeting + dark toggle
+
+🍽️ Place Order page:
+
+Static menu with images, desc, price, veg/non-veg
+
+Veg / Non-veg filter
+
+Quantity controls
+
+Automatic total calculation
+
+📜 My Orders:
+
+List of your orders with current status
+
+👩‍💼 Admin Interface
+
+🔐 Admin Login
+
+📊 Admin Dashboard (stats + dark UI)
+
+🧾 Orders List with search + filter
+
+🪟 Order detail modal
+
+✅ Status updates for each order
+
+📧 Demo Credentials (Example – change to your real values)
+
+After you create these users in your DB, mention them here.
+
+👨‍💻 User
+
+Email: user@test.com
+Password: 123456
+
+
+👩‍💼 Admin
+
+Email: admin@test.com
+Password: 123456
+
+🛡️ Security
+
+Passwords stored as hashed using bcryptjs.
+
+Auth handled using JWT tokens.
+
+Role-based access:
+
+Only admin can access admin routes.
+
+Normal users cannot hit admin protected APIs.
+
+🎯 Future Enhancements
+
+✅ Dynamic products from database (Admin can add/edit dishes)
+
+✅ Coupon / discount support
+
+✅ Online payment gateway integration
+
+✅ Real-time tracking (map integration)
+
+✅ Notifications (email / SMS) on order updates
+
+👨‍💻 Developer
+
+Sowmiya S
+MERN Stack Developer
   
 
 
