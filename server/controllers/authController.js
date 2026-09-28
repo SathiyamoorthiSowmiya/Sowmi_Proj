@@ -50,7 +50,7 @@ const loginUser = async (req, res) => {
             
             // Set the token as a cookie and send a success response
             console.log("Setting cookie and sending response...");
-            res.cookie("token", token).json({ Status: true, Result: user, id: user._id });
+            res.cookie("token", token, { httpOnly: true, secure: true, sameSite: "none" }).json({ Status: true, Result: user, id: user._id });
         } else {
             // Log that the password was incorrect
             console.log("Password incorrect for user:", user.email);

@@ -25,7 +25,7 @@ const emplogin = async (req, res) => {
                 process.env.JWT_SECRET,
                 { expiresIn: "1d" }
             );
-            res.cookie("token", token).json({ Status: true, result: user , id:user._id});
+            res.cookie("token", token, { httpOnly: true, secure: true, sameSite: "none" }).json({ Status: true, result: user , id:user._id});
         } else {
             res.json({ error: "Please Check Your Password" });
         }
